@@ -9,7 +9,7 @@
 
        PROCEDURE DIVISION.
        STRING-REVERSE SECTION.
-           PERFORM 100 TIMES
+           PERFORM 10 TIMES
                    IF FZ = 3
                         THEN IF BZ = 5
                            THEN DISPLAY "FizzBuzz"

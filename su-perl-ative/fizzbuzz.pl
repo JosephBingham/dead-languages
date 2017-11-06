@@ -1,3 +1,5 @@
+#!/usr/bin/perl
+
 use 5.010;
 
 for($i = 3; $i < 1000; $i++){

@@ -1,4 +1,4 @@
-PROGRAM test
+PROGRAM fizzbuzz
   INTEGER :: I 
   DO I = 3, 1000
      IF(MOD(I,15) == 0) THEN
@@ -11,4 +11,4 @@ PROGRAM test
         PRINT *, I
      END IF
   END DO
-END PROGRAM test
+END PROGRAM fizzbuzz
